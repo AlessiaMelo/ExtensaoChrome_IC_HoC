@@ -1,0 +1,164 @@
+Gabarito StarWars
+
+Fase 1:
+Conceito: Direção
+
+moveRigth();
+moveRigth();
+
+Fase 2:
+Conceito: Direção 
+
+moveRigth();
+moveRigth();
+moveDown();
+moveDown();
+
+Fase 3:
+Conceito: Direção e desvio de obstáculos
+
+moveRigth();
+moveUp();
+moveDown();
+moveRigth();
+
+Fase 4:
+Conceito: Direção e desvio de obstáculos
+
+moveDown();
+moveLeft();
+moveLeft();
+moveDown();
+moveDown();
+moveLeft();
+
+Fase 5:
+Conceito: Direção e desvio de obstáculos
+
+moveRigth();
+moveRigth();
+moveDown();
+moveDown();
+moveDown();
+moveLeft();
+
+Fase 6:
+Conceito: Direção e desvio de obstáculos
+
+moveDown();
+moveDown();
+moveUp();
+moveRigth();
+moveRigth();
+moveUp();
+moveDown();
+moveRigth();
+
+Fase 7:
+Conceito: Programação de ações/eventos por meio de funções 
+
+moveUp();
+
+moveDown();
+
+Fase 8:
+Conceito: Programação de ações/eventos por meio de funções 
+
+moveUp();
+
+moveDown();
+
+moveLeft();
+
+moveRight();
+
+Fase 9:
+Conceito: Programação de ações/eventos por meio de funções 
+
+Studio.playSound('block_id_4', 'R2-D2random');
+Studio.addPoints('block_id_5', '300');
+
+OBS: Adicionar apenas 100 pontos não é sufuciente. Deve-se alterar o valor ou repetir o bloco "addPoints" três vezes.
+
+Fase 10:
+Conceito: Programação de ações/eventos por meio de funções 
+
+Studio.playSound('block_id_8', 'R2-D2random');
+Studio.removePoints('block_id_9', '100');
+
+Studio.addPoints('block_id_12', '100');
+
+Studio.addPoints('block_id_14', '100');
+
+OBS: Fase livre. O gabarito é apenas uma sugestão. 
+
+Fase 11:
+Conceito: Programação de ações/eventos por meio de funções 
+
+Studio.playSound('block_id_7', 'R2-D2sound1');
+Studio.addCharacter('block_id_8', "pufferpig");
+Studio.addCharacter('block_id_12', "pufferpig");
+Studio.addCharacter('block_id_13', "pufferpig");
+
+Studio.playSound('block_id_10', 'PufferPigRandom');
+Studio.addPoints('block_id_11', '1000');
+
+OBS: Fase livre. Deve pelo menos adicionar 3 PufferPig. 
+
+Fase 12:
+Conceito: Programação de ações/eventos por meio de funções 
+
+Studio.addCharacter('block_id_8', "tauntaun");
+Studio.addCharacter('block_id_9', "tauntaun");
+Studio.addCharacter('block_id_10', "tauntaun");
+Studio.addCharacter('block_id_11', "tauntaun");
+
+Studio.playSound('block_id_13', 'TauntaunRandom');
+Studio.addPoints('block_id_14', '50');
+Studio.addCharacter('block_id_15', "mynock");
+Studio.addCharacter('block_id_16', "mynock");
+
+OBS: Fase livre.  
+
+Fase 13:
+Conceito: Programação de ações/eventos por meio de funções 
+
+Studio.addCharacter('block_id_7', "mousedroid");
+Studio.playSound('block_id_8', 'R2-D2sound3');
+Studio.addCharacter('block_id_9', "mousedroid");
+Studio.addCharacter('block_id_10', "mousedroid");
+Studio.addCharacter('block_id_12', "mousedroid");
+Studio.addCharacter('block_id_15', "mousedroid");
+
+Studio.addCharacter('block_id_13', "mousedroid");
+Studio.addCharacter('block_id_14', "mousedroid");
+
+OBS: Fase livre. Pode adicionar qualquer quantidade de pontos ou mouse droids. 
+
+Fase 14:
+Conceito: Programação de ações/eventos por meio de funções 
+
+Studio.addCharacter('block_id_11', "rebelpilot");
+Studio.addCharacter('block_id_12', "rebelpilot");
+Studio.addCharacter('block_id_13', "rebelpilot");
+Studio.setBackground('block_id_14', Studio.random(["endor","hoth","starship"]));
+Studio.setMap('block_id_15', Studio.random(["blank","circle","horizontal","grid","blobs"]));
+Studio.setDroidSpeed('block_id_17', "fast");
+
+Studio.addPoints('block_id_18', '100');
+
+OBS: Fase livre. Deve apenas capturar os pilotos rebeldes.
+
+
+Fase 15:
+Conceito: Programação de ações/eventos por meio de funções 
+
+Studio.setBackground('block_id_2', "endor");
+Studio.setMap('block_id_3', "circle");
+Studio.setSprite('block_id_4', 0, "r2-d2");
+Studio.setDroidSpeed('block_id_5', "normal");
+Studio.playSound('block_id_6', 'R2-D2random');
+
+OBS: Fase completamente livre. 
+
+

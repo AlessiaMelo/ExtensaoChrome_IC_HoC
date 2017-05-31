@@ -1,0 +1,34 @@
+{
+	"name": "Extensão de captura de dados de acompanhamento",
+	"version": "1.0",
+	"description": "Extensão de captura de dados de acompanhamento - HoC StarWars",
+	"manifest_version": 2,
+	"page_action": 
+	{
+        "default_icon": 
+        {
+            "16" : "icone.png"
+        },
+        "default_title": "Extension - StarWars "
+    },
+	"content_scripts": 
+	[
+	    {
+	      "matches": ["https://studio.code.org/s/starwarsblocks/stage/1/puzzle/*"],
+          "js": ["jquery-3.2.1.min.js","captura.js"]
+	    }
+  	],
+	  
+    "permissions": [
+        "tabs",
+        "declarativeContent", 
+        "<all_urls>"
+    ],
+ 
+    //"Event Page" (obs persistent: false)
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+
+}
